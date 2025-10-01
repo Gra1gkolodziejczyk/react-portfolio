@@ -1,12 +1,20 @@
-import { Button } from './components/ui/button'
+import Navbar from "./components/navbar/navbar.tsx"
+import Accueil from "./components/accueil.tsx"
+import AboutMe from "./components/about-me.tsx"
+import Skills from "./components/skills.tsx"
+import Projects from "./components/projects.tsx"
+import Contact from "./components/contact.tsx"
 
 function App() {
 
   return (
     <>
-      <div className="flex min-h-svh flex-col items-center justify-center">
-        <Button>Click me</Button>
-      </div>
+      <Navbar />
+      <Accueil />
+      <AboutMe />
+      <Skills />
+      <Projects />
+      <Contact />
     </>
   )
 }
