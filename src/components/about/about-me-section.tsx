@@ -31,11 +31,13 @@ function AboutMeSection() {
 
         <AboutItem src="/piment.png" alt="Icône Piment">
           <strong>Team piment 🌶 : des recettes simples qui claquent — comme mes interfaces.</strong>
+          <br />
           En dehors du code, je prends plaisir à cuisiner pour moi, ma famille et mes proches, c’est ma façon de leur faire plaisir.
         </AboutItem>
 
         <AboutItem src="/snowboard.png" alt="Snowboard">
-          <strong>Snowboarder 🏂 : trajectoires propres, vitesse maîtrisée, contrôle — comme en prod. </strong>
+          <strong>Snowboarder 🏂 : trajectoires propres, vitesse maîtrisée, contrôle — comme la mise en prod. </strong>
+          <br />
           J’ai commencé les sports de glisse avant le code ! Les beaux jours je surfe, l’hiver je fais du snowboard.
         </AboutItem>
       </ul>
