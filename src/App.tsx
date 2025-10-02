@@ -6,7 +6,6 @@ import Projects from "./components/projects.tsx"
 import Contact from "./components/contact.tsx"
 
 function App() {
-
   return (
     <>
       <Navbar />

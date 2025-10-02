@@ -20,24 +20,24 @@ function AboutMeSection() {
 
       <ul className="space-y-4">
         <AboutItem src="/intellijidea.svg" alt="Logo IntelliJ IDEA">
-          Du brief au prod : clean code, tests, CI/CD et obsession de la perf.
+          <strong>Du brief au prod : clean code, tests, CI/CD et obsession de la perf.</strong>
           Passionné de développement depuis mes 15 ans, j'ai découvert ce monde
           totalement par hasard et je n'en suis toujours pas sortie.
         </AboutItem>
 
         <AboutItem src="/btc.svg" alt="Logo Bitcoin">
-          Crypto-expert : DCA discipliné, automations maison et veille de l’écosystème.
-          Investissement sur différentes cryptomonnaies depuis mes 18 ans.
+          <strong>Crypto-expert :</strong> DCA discipliné, veille de l’écosystème.
+          Investissement dans différentes cryptomonnaies depuis mes 18 ans.
         </AboutItem>
 
         <AboutItem src="/piment.png" alt="Icône Piment">
-          Team piment 🌶 : des recettes simples qui claquent — comme mes interfaces.
-          Quand je code pas je cuisine pour moi, pour ma famille et mes proches j&apos;aime vraiment faire plaisir aux gens comme ça.
+          <strong>Team piment 🌶 : des recettes simples qui claquent — comme mes interfaces.</strong>
+          En dehors du code, je prends plaisir à cuisiner pour moi, ma famille et mes proches, c’est ma façon de leur faire plaisir.
         </AboutItem>
 
         <AboutItem src="/snowboard.png" alt="Snowboard">
-          Snowboarder 🏂 : trajectoires propres, vitesse maîtrisée, contrôle — comme en prod.
-          J'ai commencé les sports de glisse avant le code ! Les beaux jours je surf l'hiver je fais du snowboard.
+          <strong>Snowboarder 🏂 : trajectoires propres, vitesse maîtrisée, contrôle — comme en prod. </strong>
+          J’ai commencé les sports de glisse avant le code ! Les beaux jours je surfe, l’hiver je fais du snowboard.
         </AboutItem>
       </ul>
 

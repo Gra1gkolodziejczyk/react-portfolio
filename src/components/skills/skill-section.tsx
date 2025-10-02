@@ -4,7 +4,7 @@ const defaultGroups: SkillColumnData[] = [
   {
     title: "Outils",
     items: [
-      { name: "Git", iconSrc: "/gitHub_dark.svg", rating: 5, years: 5 },
+      { name: "Git", iconSrc: "/github_dark.svg", rating: 5, years: 5 },
       { name: "IntelliJ IDEA", iconSrc: "/intellijidea.svg", rating: 4, years: 4 },
       { name: "Postman", iconSrc: "/postman.svg", rating: 4, years: 5 },
       { name: "Stripe", iconSrc: "/stripe.svg", rating: 4, years: 2 },
@@ -28,9 +28,18 @@ const defaultGroups: SkillColumnData[] = [
       { name: "NestJS", iconSrc: "/nestjs.svg", rating: 4, years: 3 },
       { name: "GraphQL", iconSrc: "/graphql.svg", rating: 4, years: 3 },
       { name: "Prisma", iconSrc: "/prisma_dark.svg", rating: 5, years: 4 },
+      { name: "Drizzle", iconSrc: "/drizzle.svg", rating: 4, years: 2 },
       { name: "Laravel", iconSrc: "/laravel.svg", rating: 4, years: 2 },
       { name: "Jest", iconSrc: "/jest.svg", rating: 4, years: 3 },
       { name: "Vitest", iconSrc: "/vitest.svg", rating: 4, years: 3 },
+    ],
+  },
+  {
+    title: "Mobile",
+    items: [
+      { name: "React-Native", iconSrc: "/react.svg", rating: 4, years: 2 },
+      { name: "Expo", iconSrc: "/expo.svg", rating: 5, years: 2 },
+      { name: "Flutter", iconSrc: "/flutter.svg", rating: 4, years: 3 },
     ],
   },
   {
@@ -61,9 +70,6 @@ export default function SkillsSection({ groups = defaultGroups }: { groups?: Ski
           <SkillColumn key={g.title} title={g.title} items={g.items} />
         ))}
       </div>
-
-
-      <p className="mt-4 text-xs text-black dark:text-white">*Survolez une carte pour voir l'expérience (étoiles + années). Tout est contenu dans la carte.</p>
     </section>
   );
 }

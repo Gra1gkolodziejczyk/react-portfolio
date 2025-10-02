@@ -4,7 +4,6 @@ function Projects() {
   return (
     <Layout children={
       <>
-        <h1>hello</h1>
       </>
     }>
     </Layout>
