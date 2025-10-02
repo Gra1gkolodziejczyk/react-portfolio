@@ -1,5 +1,5 @@
 import Navbar from "./components/navbar/navbar.tsx"
-import Accueil from "./components/accueil.tsx"
+import Home from "./components/home.tsx"
 import AboutMe from "./components/about-me.tsx"
 import Skills from "./components/skills.tsx"
 import Projects from "./components/projects.tsx"
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Accueil />
+      <Home />
       <AboutMe />
       <Skills />
       <Projects />

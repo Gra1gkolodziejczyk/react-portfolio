@@ -47,6 +47,7 @@ const defaultGroups: SkillColumnData[] = [
     items: [
       { name: "PostgreSQL", iconSrc: "/postgresql.svg", rating: 5, years: 4 },
       { name: "Redis", iconSrc: "/redis.svg", rating: 3, years: 2 },
+      { name: "MySQL", iconSrc: "/mysql.svg", rating: 5, years: 3 },
     ],
   },
   {

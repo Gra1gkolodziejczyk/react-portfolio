@@ -17,7 +17,7 @@ export default function HeroSection() {
           </h2>
 
           <p className="mt-4 text-lg text-black dark:text-white">
-            Je construis des applications complètes et responsives, mobiles ou web.
+            Je construis des applications complètes et responsive, mobiles ou web.
             Rien ne m&apos;arrête, je suis un entrepreneur dans l&apos;âme et autodidacte
             depuis toujours.
           </p>

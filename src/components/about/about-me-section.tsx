@@ -8,15 +8,14 @@ function AboutMeSection() {
       </h2>
 
       <p className="mb-6 text-base leading-relaxed text-black dark:text-white">
-        J’ai 24 ans et je viens d’être diplômé d’un Master 2 « Expert en Développement
-        Logiciel » à Bordeaux Ynov Campus. J’ai également obtenu un titre RNCP de niveau 7
-        m’octroyant le titre d’ingénieur informatique (si ça c’est pas la classe 😄).
-        Pendant 3 ans d’alternance chez <span className="font-semibold">Wedrivit</span> — une
-        plateforme façon AirBnB mais pour la location de voitures de collection —
-        j’ai acquis énormément de compétences sur les bonnes pratiques React, le SEO,
-        TypeScript et bien d’autres sujets (performance, qualité, outillage).
-        Aujourd’hui, je suis à la recherche d’un <span className="font-semibold">CDI</span>.
+        Âgé de 24 ans, je suis diplômé d’un Master 2 « Expert en Développement Logiciel » (Bordeaux Ynov Campus)
+        et titulaire d’un titre RNCP de niveau 7. Au cours de trois années d’alternance chez <span className="font-semibold">Wedrivit</span> — plateforme de location de voitures de collection —,
+        j’ai consolidé mes compétences en React, TypeScript, SEO, performance, qualité et outillage.
+        En parallèle, je développe <a className="underline underline-offset-2" href="https://biume.com" target="_blank" rel="noreferrer">Biume</a>,
+        un SaaS de prise de rendez-vous pour les professionnels du secteurs santé animale (solution de type Doctolib pour les animaux).
+        Je suis actuellement à la recherche d’un <span className="font-semibold">CDI</span>.
       </p>
+
 
       <ul className="space-y-4">
         <AboutItem src="/intellijidea.svg" alt="Logo IntelliJ IDEA">
