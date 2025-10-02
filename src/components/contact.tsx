@@ -1,11 +1,10 @@
-import Layout from "@/components/layout.tsx";
+import ContactSection from "@/components/contact/contact-section.tsx";
 
 function Contact() {
   return (
-    <Layout children={
-      <></>
-    }>
-    </Layout>
+      <div className="w-full flex justify-center">
+        <ContactSection />
+      </div>
   )
 }
 
