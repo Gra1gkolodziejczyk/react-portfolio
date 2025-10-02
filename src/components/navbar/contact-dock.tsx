@@ -14,6 +14,7 @@ export default function ContactDock() {
       bg: "bg-[#0A66C2]",
       Icon: FaLinkedin,
       external: true,
+      download: false,
     },
     {
       label: "GitHub",
@@ -21,12 +22,15 @@ export default function ContactDock() {
       bg: "bg-black",
       Icon: FaGithub,
       external: true,
+      download: false,
     },
     {
       label: "Email",
       href: "mailto:graig.kolodziejczyk@icloud.com?subject=Contact%20depuis%20le%20site",
       bg: "bg-[#48B795]",
       Icon: MdEmail,
+      download: false,
+      external: false,
     },
     {
       label: "CV (PDF)",
@@ -34,11 +38,12 @@ export default function ContactDock() {
       bg: "bg-[#DF5E57]",
       Icon: FaFilePdf,
       download: true,
+      external: false,
     },
   ] as const;
 
   return (
-    <nav className="fixed left-0 top-1/2 -translate-y-1/2 z-40">
+    <nav className="fixed left-0 top-1/2 -translate-y-1/2 z-40 hidden xl:block">
       <ul className="flex flex-col">
         {items.map(({ label, href, bg, Icon, external, download }) => (
           <li key={label} className="relative group">
