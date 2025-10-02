@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import type { Project } from "@/types/project.type.ts";
+import Logo from "@/components/hero/logo.tsx";
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
@@ -32,11 +33,17 @@ export default function ProjectCard({ project }: { project: Project }) {
           </h3>
 
           <div className="mt-3 flex min-h-[2rem] flex-wrap items-center gap-3">
-            {project.techs.map((t) =>
-              t.iconSrc ? (
-                <img key={t.name} src={t.iconSrc} alt="" className="h-7 w-7 object-contain" />
-              ) : null
-            )}
+            {project.techs.map((t) => (
+              <Logo
+                key={t.name}
+                name={t.name}
+                iconSrc={t.iconSrc} // reste optionnel
+                size={28}
+                theme="auto"
+                className="h-7 w-7 object-contain"
+                title={`${t.name} logo`}
+              />
+            ))}
           </div>
 
           <div className="mt-auto" />

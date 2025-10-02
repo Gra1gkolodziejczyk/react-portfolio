@@ -4,7 +4,7 @@ const defaultGroups: SkillColumnData[] = [
   {
     title: "Outils",
     items: [
-      { name: "Git", iconSrc: "/github_dark.svg", rating: 5, years: 5 },
+      { name: "Github", iconSrc: "github_light.svg", rating: 5, years: 5 },
       { name: "IntelliJ IDEA", iconSrc: "/intellijidea.svg", rating: 4, years: 4 },
       { name: "Postman", iconSrc: "/postman.svg", rating: 4, years: 5 },
       { name: "Stripe", iconSrc: "/stripe.svg", rating: 4, years: 2 },
