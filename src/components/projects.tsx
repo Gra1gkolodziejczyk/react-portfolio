@@ -3,7 +3,7 @@ import ProjectSection from "@/components/projects/project-section.tsx";
 
 function Projects() {
   return (
-    <Layout children={
+    <Layout id="project" children={
       <ProjectSection />
     }>
     </Layout>

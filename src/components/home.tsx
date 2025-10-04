@@ -4,7 +4,7 @@ import HeroSection from "./hero/hero-section.tsx"
 
 function Home() {
   return (
-    <Layout children={
+    <Layout id="home" children={
      <HeroSection />
     }>
     </Layout>

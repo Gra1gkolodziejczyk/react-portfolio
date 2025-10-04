@@ -96,7 +96,7 @@ const sample: Project[] = [
 
 export default function ProjectsSection({ projects = sample }: { projects?: Project[] }) {
   return (
-    <section id="projects" aria-labelledby="projects-title" className="w-full">
+    <section aria-labelledby="projects-title" className="w-full">
       <h2 id="projects-title" className="mb-6 text-2xl font-bold text-primary">
         Projects
       </h2>

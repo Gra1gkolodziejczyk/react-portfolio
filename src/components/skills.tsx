@@ -3,7 +3,7 @@ import SkillsSection from "@/components/skills/skill-section.tsx";
 
 function Skills() {
   return (
-    <Layout children={
+    <Layout id="skills" children={
       <SkillsSection />
     }>
     </Layout>
