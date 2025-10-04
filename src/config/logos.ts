@@ -1,9 +1,9 @@
 export const LOGO_ALIASES: Record<string, string> = {
-  "aws": "amazon_web_services",
+  "amazon_web_services": "amazon_web_services",
   "github": "gitHub",
   "vercel": "vercel",
-  "drizzle": "drizzle_orm",
-  "motion": "framer_motion",
+  "drizzle": "drizzle",
+  "motion": "motion",
   "prisma": "prisma",
 };
 
