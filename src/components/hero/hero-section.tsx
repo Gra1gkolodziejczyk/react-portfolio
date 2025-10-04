@@ -4,7 +4,7 @@ import {Button} from "@/components/ui/button.tsx";
 export default function HeroSection() {
   return (
     <>
-      <section className="flex flex-col-reverse lg:flex-row items-center justify-center gap-10 h-full">
+      <section id="home" className="flex flex-col-reverse lg:flex-row items-center justify-center gap-10 h-full">
         <div className="mx-auto max-w-[1000px] px-2 lg:px-4 flex flex-col justify-center">
           <p className="text-lg text-black dark:text-white">Bonjour, je m&apos;appelle</p>
 

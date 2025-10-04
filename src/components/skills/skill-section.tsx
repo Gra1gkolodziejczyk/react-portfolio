@@ -63,8 +63,8 @@ const defaultGroups: SkillColumnData[] = [
 
 export default function SkillsSection({ groups = defaultGroups }: { groups?: SkillColumnData[] }) {
   return (
-    <section aria-labelledby="skills-title" className="w-full">
-      <h2 id="skills-title" className="text-2xl font-bold mb-6 text-primary">Compétences</h2>
+    <section id="skills" className="w-full">
+      <h2 className="text-2xl font-bold mb-6 text-primary">Compétences</h2>
 
       <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
         {groups.map((g) => (

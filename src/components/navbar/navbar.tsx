@@ -15,10 +15,10 @@ export default function Navbar() {
           </a>
 
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
-            <NavLink href="#accueil">Accueil</NavLink>
-            <NavLink href="#apropos">À propos de moi</NavLink>
-            <NavLink href="#competences">Mes compétences</NavLink>
-            <NavLink href="#projets">Mes projets</NavLink>
+            <NavLink href="#home">Accueil</NavLink>
+            <NavLink href="#aboutme">À propos de moi</NavLink>
+            <NavLink href="#skills">Mes compétences</NavLink>
+            <NavLink href="#projects">Mes projets</NavLink>
             <Button className="hover:text-white">
               <a href="#contact" className="text-white">Contactez-moi</a>
             </Button>

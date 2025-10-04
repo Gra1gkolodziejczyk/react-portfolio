@@ -2,7 +2,7 @@ import ContactSection from "@/components/contact/contact-section.tsx";
 
 function Contact() {
   return (
-      <div className="w-full flex justify-center">
+      <div id="contact" className="w-full flex justify-center">
         <ContactSection />
       </div>
   )
