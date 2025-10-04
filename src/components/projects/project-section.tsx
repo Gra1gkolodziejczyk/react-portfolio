@@ -59,7 +59,7 @@ const sample: Project[] = [
       { name: "aws", iconSrc: "/amazon_web_services.svg" },
       { name: "docker", iconSrc: "/docker.svg" },
     ],
-    siteUrl: "https://wedrivit.com/",
+    siteUrl: "https://www.retrobalades.com/",
     start: "18/09/2022",
     end: "18/11/2025",
   },
@@ -76,7 +76,7 @@ const sample: Project[] = [
       { name: "Vercel", iconSrc: "vercel.svg" },
       { name: "Next-Inlt", iconSrc: "/nextintl.png" }
     ],
-    siteUrl: "https://www.Sereniluxe.com/",
+    siteUrl: "https://www.sereniluxe.com/",
     start: "01/03/2025",
     end: "01/04/2025",
   },

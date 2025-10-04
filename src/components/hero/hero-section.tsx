@@ -40,7 +40,6 @@ export default function HeroSection() {
               ]}
               size={32}
               theme="auto"
-              variant="route"
               gapClassName="gap-2"
             />
             <p className="font-bold text-black dark:text-white">… et plus encore</p>

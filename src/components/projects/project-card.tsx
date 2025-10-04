@@ -25,7 +25,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           )}
         </div>
 
-        <div className="flex grow flex-col px-4 pt-4">
+        <div className="flex grow flex-col px-4">
           <h3
             className="text-xl font-bold leading-tight text-foreground min-h-[3.25rem] line-clamp-2"
           >

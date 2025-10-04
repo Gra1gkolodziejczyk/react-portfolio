@@ -10,7 +10,7 @@ export default function ContactDock() {
   const items = [
     {
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/graig-kolodziejczyk/",
+      href: "https://www.linkedin.com/in/graig-kolodziejczyk-1482241b8/",
       bg: "bg-[#0A66C2]",
       Icon: FaLinkedin,
       external: true,
