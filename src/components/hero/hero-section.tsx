@@ -9,7 +9,7 @@ export default function HeroSection() {
           <p className="text-lg text-black dark:text-white">Bonjour, je m&apos;appelle</p>
 
           <h1 className="text-4xl sm:text-7xl font-extrabold text-primary">
-            Graig Kolodziejczyk
+            Graig KOLODZIEJCZYK
           </h1>
 
           <h2 className="text-4xl sm:text-7xl font-extrabold text-black dark:text-white">
