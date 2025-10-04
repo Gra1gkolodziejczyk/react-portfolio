@@ -2,8 +2,8 @@ import AboutItem from "./about-item.tsx";
 
 function AboutMeSection() {
   return (
-    <section aria-labelledby="about-me-title" className="w-full">
-      <h2 id="about-me-title" className="text-2xl font-bold mb-6 text-primary">
+    <section className="w-full">
+      <h2 className="text-2xl font-bold mb-6 text-primary">
         À propos de moi
       </h2>
 

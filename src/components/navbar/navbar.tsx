@@ -10,7 +10,7 @@ export default function Navbar() {
     <>
       <header className="fixed top-0 z-50 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-          <a href="/" className="font-bold tracking-tight text-lg">
+          <a href="#home" className="font-bold tracking-tight text-lg">
             <img src={reactImage} alt="Logo" className="h-10 w-10" />
           </a>
 

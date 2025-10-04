@@ -18,13 +18,13 @@ function MobileMenu() {
           <SheetTitle>Menu</SheetTitle>
         </SheetHeader>
         <div className="mt-6 flex flex-col gap-2">
-          <MobileLink href="#accueil">Accueil</MobileLink>
-          <MobileLink href="#apropos">À propos de moi</MobileLink>
-          <MobileLink href="#competences">Mes compétences</MobileLink>
-          <MobileLink href="#projets">Mes projets</MobileLink>
+          <MobileLink href="#home">Accueil</MobileLink>
+          <MobileLink href="#aboutme">À propos de moi</MobileLink>
+          <MobileLink href="#skills">Mes compétences</MobileLink>
+          <MobileLink href="#projects">Mes projets</MobileLink>
           <MobileLink href="#contact">Contactez-moi</MobileLink>
-          <Separator className="my-4" />
-          <div className="text-xs text-muted-foreground">© {new Date().getFullYear()} MonNom — Portfolio</div>
+          <Separator className="my-2" />
+          <div className="flex items-end justify-end text-end text-xs text-muted-foreground px-2">© {new Date().getFullYear()} Graig Kolodziejczyk — Portfolio</div>
         </div>
       </SheetContent>
     </Sheet>
