@@ -34,11 +34,48 @@ const resources = {
         point4: "Snowboarder 🏂: clean lines, controlled speed, full mastery — just like a production deployment.\n" +
           "I got into board sports before coding! In the summer I surf, and in the winter I snowboard.",
       },
-      skills: {
-        title: 'Skills',
-      },
-      projects: {
-        title: 'Projects',
+        skills: {
+            title: 'My Skills',
+            categories: {
+                tools: 'Tools',
+                frontend: 'Frontend',
+                backend: 'Backend',
+                mobile: 'Mobile',
+                database: 'Database',
+                devops: 'DevOps'
+            }
+        },
+        projects: {
+            title: 'My Projects',
+            role: {
+                ceo: 'CEO | Full-Stack Developer',
+                alternant: 'Intern | Full-Stack Developer',
+                freelance: 'Freelance | Frontend Developer'
+            },
+            biume: {
+                title: 'Biume - Doctolib-like Platform for Animals',
+                end: 'present'
+            },
+            wedrivit: {
+                title: 'Wedrivit – Classic Car Rental Platform'
+            },
+            retrobalade: {
+                title: 'Retrobalade – Classic Car Rental Platform'
+            },
+            villamaurice: {
+                title: 'Villa Maurice | Sereniluxe'
+            },
+            prosperia: {
+                title: 'Prosperia - Investment Platform / Business Acquisition'
+            }
+        },
+      contact: {
+        title: 'Contact me',
+        writeMe: 'Write me',
+        copied: 'Copied',
+        copy: 'Copy',
+        emailDispo: "Available to chat — email, LinkedIn",
+        openMail: "— open in your mailbox",
       },
     }
   },
@@ -71,11 +108,48 @@ const resources = {
         point4: "Snowboarder 🏂 : trajectoires propres, vitesse maîtrisée, contrôle — comme la mise en prod.\n" +
           "J’ai commencé les sports de glisse avant le code ! Les beaux jours je surfe, l’hiver je fais du snowboard.",
       },
-      skills: {
-        title: 'Compétences',
-      },
-      projects: {
-        title: 'Projets',
+        skills: {
+            title: 'Mes Compétences',
+            categories: {
+                tools: 'Outils',
+                frontend: 'Frontend',
+                backend: 'Backend',
+                mobile: 'Mobile',
+                database: 'Base de données',
+                devops: 'DevOps'
+            }
+        },
+        projects: {
+          title: 'Mes Projets',
+            role: {
+              ceo: 'CEO | Développeur Full-Stack',
+                alternant: 'Alternant | Développeur Full-Stack',
+                freelance: 'Freelance | Développeur Frontend'
+            },
+            biume: {
+                title: 'Biume - Plateforme type Doctolib pour les animaux',
+                end: "jusqu'à maintenant"
+            },
+            wedrivit: {
+                title: 'Wedrivit – Plateforme de location de voitures de collection'
+            },
+            retrobalade: {
+                title: 'Retrobalade – Plateforme de location de voitures de collection'
+            },
+            villamaurice: {
+                title: 'Villa Maurice | Sereniluxe'
+            },
+            prosperia: {
+                title: "Prosperia - Plateforme d'investissement / rachat d'entreprise"
+            }
+        },
+      contact: {
+        title: 'Contact',
+        writeMe: "M'écrire",
+        copied: 'Copié',
+        copy: 'Copier',
+        emailDispo: "Disponible pour échanger par email, LinkedIn",
+        openMail: "— ouvrir dans la boite mail",
       },
     }
   }
@@ -86,7 +160,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    fallbackLng: 'en',
+    fallbackLng: 'fr',
     interpolation: {
       escapeValue: false
     }

@@ -5,6 +5,7 @@ import { Mail, Copy, Check } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Logo from "@/components/hero/logo.tsx";
+import {useTranslation} from "react-i18next";
 
 type Props = {
   email?: string;
@@ -13,6 +14,7 @@ type Props = {
 };
 
 export default function ContactPanel({email = "graig.kolodziejczyk@icloud.com", linkedinUrl, className = ""}: Props) {
+  const { t } = useTranslation();
   const [copied, setCopied] = React.useState(false);
 
   async function copyEmail() {
@@ -48,9 +50,9 @@ export default function ContactPanel({email = "graig.kolodziejczyk@icloud.com", 
 
       <div className="relative flex items-center justify-between gap-6 max-sm:flex-col max-sm:items-start">
         <div className="space-y-1">
-          <h3 className="text-xl font-bold text-primary">Contact</h3>
+          <h3 className="text-xl font-bold text-primary">{t('contact.title')}</h3>
           <p className="text-sm text-muted-foreground">
-            Dispo pour échanger — email, LinkedIn
+            {t('contact.emailDispo')}
           </p>
         </div>
 
@@ -61,7 +63,7 @@ export default function ContactPanel({email = "graig.kolodziejczyk@icloud.com", 
               aria-label={`Envoyer un email à ${email}`}
             >
               <Mail className="mr-2 h-4 w-4" />
-              M’écrire
+              {t('contact.writeMe')}
             </a>
           </Button>
 
@@ -75,12 +77,12 @@ export default function ContactPanel({email = "graig.kolodziejczyk@icloud.com", 
             {copied ? (
               <>
                 <Check className="h-4 w-4" />
-                <span className="sr-only">Copié</span>
+                <span className="sr-only">{t('contact.copied')}</span>
               </>
             ) : (
               <>
                 <Copy className="h-4 w-4" />
-                <span className="sr-only">Copier</span>
+                <span className="sr-only">{t('contact.copy')}</span>
               </>
             )}
           </Button>
@@ -110,7 +112,7 @@ export default function ContactPanel({email = "graig.kolodziejczyk@icloud.com", 
           <Mail className="h-4 w-4 opacity-80" />
           <span className="font-medium">{email}</span>
           <span className="ml-1 text-muted-foreground group-hover:underline">
-            — ouvrir dans votre messagerie
+            {t('contact.openMail')}
           </span>
         </a>
       </div>

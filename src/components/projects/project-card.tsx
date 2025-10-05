@@ -37,7 +37,7 @@ export default function ProjectCard({ project }: { project: Project }) {
               <Logo
                 key={t.name}
                 name={t.name}
-                iconSrc={t.iconSrc} // reste optionnel
+                iconSrc={t.iconSrc}
                 size={28}
                 theme="auto"
                 className="h-7 w-7 object-contain"
