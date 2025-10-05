@@ -1,5 +1,6 @@
 import type { Project } from "@/types/project.type.ts";
 import ProjectCard from "@/components/projects/project-card.tsx";
+import {useTranslation} from "react-i18next";
 
 const sample: Project[] = [
   {
@@ -95,10 +96,11 @@ const sample: Project[] = [
 ];
 
 export default function ProjectsSection({ projects = sample }: { projects?: Project[] }) {
+  const { t } = useTranslation();
   return (
     <section className="w-full">
       <h2 className="mb-6 text-2xl font-bold text-primary">
-        Projects
+        {t('projects.title')}
       </h2>
 
       <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">

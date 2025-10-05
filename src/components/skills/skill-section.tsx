@@ -1,4 +1,5 @@
 import { SkillColumn, type SkillColumnData } from "@/components/skills/skill-column.tsx";
+import {useTranslation} from "react-i18next";
 
 const defaultGroups: SkillColumnData[] = [
   {
@@ -62,9 +63,10 @@ const defaultGroups: SkillColumnData[] = [
 ];
 
 export default function SkillsSection({ groups = defaultGroups }: { groups?: SkillColumnData[] }) {
+  const { t } = useTranslation();
   return (
     <section className="w-full">
-      <h2 className="text-2xl font-bold mb-6 text-primary">Compétences</h2>
+      <h2 className="text-2xl font-bold mb-6 text-primary">{t('skills.title')}</h2>
 
       <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
         {groups.map((g) => (
