@@ -47,7 +47,7 @@ export default function HeroSection() {
 
           <div className="flex gap-4 mt-6">
             <Button
-              className="text-white hover:text-white"
+              className="cursor-pointer text-white hover:text-white"
               onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
             >
               Voir mes projets
