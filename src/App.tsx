@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import Navbar from "./components/navbar/navbar.tsx"
 import Home from "./components/home.tsx"
 import AboutMe from "./components/about-me.tsx"
+import Education from "@/components/education.tsx";
 import Skills from "./components/skills.tsx"
 import Projects from "./components/projects.tsx"
 import Contact from "./components/contact.tsx"
@@ -18,6 +19,7 @@ function App() {
       <Navbar />
       <Home />
       <AboutMe />
+      <Education />
       <Skills />
       <Projects />
       <Contact />

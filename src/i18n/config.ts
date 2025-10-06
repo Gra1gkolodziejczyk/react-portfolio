@@ -34,40 +34,57 @@ const resources = {
         point4: "Snowboarder 🏂: clean lines, controlled speed, full mastery — just like a production deployment.\n" +
           "I got into board sports before coding! In the summer I surf, and in the winter I snowboard.",
       },
-        skills: {
-            title: 'My Skills',
-            categories: {
-                tools: 'Tools',
-                frontend: 'Frontend',
-                backend: 'Backend',
-                mobile: 'Mobile',
-                database: 'Database',
-                devops: 'DevOps'
-            }
+      education: {
+        title: 'My qualifications',
+        diplomas: {
+          master: {
+            title: 'Master 2: Expert Software Developer',
+            school: 'Ynov Campus',
+            location: 'Bordeaux, 33000, France',
+            period: '2021 - 2025',
+          },
+          rncp7: {
+            title: 'RNCP39583 Title Level 7: Expert in Software Development',
+            school: 'State Diploma',
+            location: 'France',
+            period: '2024 - 2025',
+          }
+        }
+      },
+      skills: {
+        title: 'My skills',
+        categories: {
+          tools: 'Tools',
+          frontend: 'Frontend',
+          backend: 'Backend',
+          mobile: 'Mobile',
+          database: 'Database',
+          devops: 'DevOps'
+          }
         },
         projects: {
-            title: 'My Projects',
-            role: {
-                ceo: 'CEO | Full-Stack Developer',
-                alternant: 'Intern | Full-Stack Developer',
-                freelance: 'Freelance | Frontend Developer'
-            },
-            biume: {
-                title: 'Biume - Doctolib-like Platform for Animals',
-                end: 'present'
-            },
-            wedrivit: {
-                title: 'Wedrivit – Classic Car Rental Platform'
-            },
-            retrobalade: {
-                title: 'Retrobalade – Classic Car Rental Platform'
-            },
-            villamaurice: {
-                title: 'Villa Maurice | Sereniluxe'
-            },
-            prosperia: {
-                title: 'Prosperia - Investment Platform / Business Acquisition'
-            }
+        title: 'My projects',
+          role: {
+          ceo: 'CEO | Full-Stack Developer',
+            alternant: 'Intern | Full-Stack Developer',
+            freelance: 'Freelance | Frontend Developer'
+          },
+          biume: {
+            title: 'Biume - Doctolib-like Platform for Animals',
+            end: 'present'
+          },
+          wedrivit: {
+            title: 'Wedrivit – Classic Car Rental Platform'
+          },
+          retrobalade: {
+            title: 'Retrobalade – Classic Car Rental Platform'
+          },
+          villamaurice: {
+            title: 'Villa Maurice | Sereniluxe'
+          },
+          prosperia: {
+            title: 'Prosperia - Investment Platform / Business Acquisition'
+          }
         },
       contact: {
         title: 'Contact me',
@@ -108,40 +125,57 @@ const resources = {
         point4: "Snowboarder 🏂 : trajectoires propres, vitesse maîtrisée, contrôle — comme la mise en prod.\n" +
           "J’ai commencé les sports de glisse avant le code ! Les beaux jours je surfe, l’hiver je fais du snowboard.",
       },
-        skills: {
-            title: 'Mes Compétences',
-            categories: {
-                tools: 'Outils',
-                frontend: 'Frontend',
-                backend: 'Backend',
-                mobile: 'Mobile',
-                database: 'Base de données',
-                devops: 'DevOps'
-            }
+      education: {
+        title: 'Mes diplômes',
+        diplomas: {
+          master: {
+            title: 'Master 2: Expert développeur logiciel',
+            school: 'Ynov Campus',
+            location: 'Bordeaux, 33000, France',
+            period: '2021 - 2025',
+          },
+          rncp7: {
+            title: 'Titre RNCP39583 de niveau 7: Expert en développement logiciel',
+            school: "Diplôme d'État",
+            location: 'France',
+            period: '2024 - 2025',
+          }
+        }
+      },
+      skills: {
+        title: 'Mes compétences',
+        categories: {
+          tools: 'Outils',
+          frontend: 'Frontend',
+          backend: 'Backend',
+          mobile: 'Mobile',
+          database: 'Base de données',
+          devops: 'DevOps'
+          }
         },
         projects: {
-          title: 'Mes Projets',
-            role: {
-              ceo: 'CEO | Développeur Full-Stack',
-                alternant: 'Alternant | Développeur Full-Stack',
-                freelance: 'Freelance | Développeur Frontend'
-            },
-            biume: {
-                title: 'Biume - Plateforme type Doctolib pour les animaux',
-                end: "jusqu'à maintenant"
-            },
-            wedrivit: {
-                title: 'Wedrivit – Plateforme de location de voitures de collection'
-            },
-            retrobalade: {
-                title: 'Retrobalade – Plateforme de location de voitures de collection'
-            },
-            villamaurice: {
-                title: 'Villa Maurice | Sereniluxe'
-            },
-            prosperia: {
-                title: "Prosperia - Plateforme d'investissement / rachat d'entreprise"
-            }
+        title: 'Mes projets',
+          role: {
+          ceo: 'CEO | Développeur Full-Stack',
+            alternant: 'Alternant | Développeur Full-Stack',
+            freelance: 'Freelance | Développeur Frontend'
+          },
+          biume: {
+            title: 'Biume - Plateforme type Doctolib pour les animaux',
+            end: "jusqu'à maintenant"
+          },
+          wedrivit: {
+            title: 'Wedrivit – Plateforme de location de voitures de collection'
+          },
+          retrobalade: {
+            title: 'Retrobalade – Plateforme de location de voitures de collection'
+          },
+          villamaurice: {
+            title: 'Villa Maurice | Sereniluxe'
+          },
+          prosperia: {
+            title: "Prosperia - Plateforme d'investissement / rachat d'entreprise"
+          }
         },
       contact: {
         title: 'Contact',
