@@ -9,6 +9,7 @@ const resources = {
       nav: {
         home: 'Home',
         about: 'About me',
+        education: 'Qualifications',
         skills: 'Skills',
         projects: 'Projects',
         contact: 'Contact me',
@@ -101,6 +102,7 @@ const resources = {
       nav: {
         home: 'Accueil',
         about: 'À propos de moi',
+        education: 'Diplômes',
         skills: 'Compétences',
         projects: 'Projets',
         contact: 'Contactez-moi',

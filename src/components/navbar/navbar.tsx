@@ -20,6 +20,7 @@ export default function Navbar() {
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
             <NavLink href="#home">{t('nav.home')}</NavLink>
             <NavLink href="#aboutme">{t('nav.about')}</NavLink>
+            <NavLink href="#education">{t('nav.education')}</NavLink>
             <NavLink href="#skills">{t('nav.skills')}</NavLink>
             <NavLink href="#projects">{t('nav.projects')}</NavLink>
             <Button className="hover:text-white">
