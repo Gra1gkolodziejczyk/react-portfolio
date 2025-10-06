@@ -1,4 +1,4 @@
-export type Education = {
+export type EducationType = {
   id: string;
   title: string;
   school: string;

@@ -1,8 +1,8 @@
 import { GraduationCap, Calendar, MapPin } from "lucide-react";
-import type { Education } from "@/types/education.ts";
+import type { EducationType } from "@/types/education.type.ts";
 
 interface EducationCardProps {
-  education: Education;
+  education: EducationType;
   index: number;
 }
 

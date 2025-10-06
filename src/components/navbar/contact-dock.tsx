@@ -4,9 +4,15 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaFilePdf } from "react-icons/fa6";
+import {useTranslation} from "react-i18next";
 
 
 export default function ContactDock() {
+  const { i18n } = useTranslation();
+
+  // Détecte la langue actuelle et construit l'URL du CV
+  const cvUrl = i18n.language === 'fr' ? '/cv-fr.pdf' : '/cv-en.pdf';
+
   const items = [
     {
       label: "LinkedIn",
@@ -34,7 +40,7 @@ export default function ContactDock() {
     },
     {
       label: "CV (PDF)",
-      href: "/cv.pdf",
+      href: cvUrl,
       bg: "bg-[#DF5E57]",
       Icon: FaFilePdf,
       download: true,
@@ -43,7 +49,9 @@ export default function ContactDock() {
   ] as const;
 
   return (
+
     <nav className="fixed left-0 top-1/2 -translate-y-1/2 z-40 hidden xl:block">
+
       <ul className="flex flex-col">
         {items.map(({ label, href, bg, Icon, external, download }) => (
           <li key={label} className="relative group">

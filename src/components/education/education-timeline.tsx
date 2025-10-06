@@ -1,10 +1,10 @@
 import { memo } from "react";
-import type { Education } from "@/types/education.ts";
+import type { EducationType } from "@/types/education.type.ts";
 import EducationCard from "./education-card";
 
 
 interface EducationTimelineProps {
-  education: Education[];
+  education: EducationType[];
 }
 
 function EducationTimeline({ education }: EducationTimelineProps) {
