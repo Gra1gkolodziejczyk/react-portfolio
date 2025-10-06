@@ -3,8 +3,10 @@ import { Separator } from "@/components/ui/separator"
 import MobileLink from "./mobile-link.tsx"
 import { Button } from "../ui/button.tsx"
 import { Menu } from "lucide-react"
+import {useTranslation} from "react-i18next";
 
 function MobileMenu() {
+  const { t } = useTranslation();
   return (
     <Sheet>
       <SheetTrigger asChild>
@@ -18,11 +20,12 @@ function MobileMenu() {
           <SheetTitle>Menu</SheetTitle>
         </SheetHeader>
         <div className="mt-6 flex flex-col gap-2">
-          <MobileLink href="#home">Accueil</MobileLink>
-          <MobileLink href="#aboutme">À propos de moi</MobileLink>
-          <MobileLink href="#skills">Mes compétences</MobileLink>
-          <MobileLink href="#projects">Mes projets</MobileLink>
-          <MobileLink href="#contact">Contactez-moi</MobileLink>
+          <MobileLink href="#home">{t('nav.home')}</MobileLink>
+          <MobileLink href="#aboutme">{t('nav.aboutme')}</MobileLink>
+          <MobileLink href="#education">{t('nav.education')}</MobileLink>
+          <MobileLink href="#skills">{t('nav.skills')}</MobileLink>
+          <MobileLink href="#projects">{t('nav.projects')}</MobileLink>
+          <MobileLink href="#contact">{t('nav.contact')}</MobileLink>
           <Separator className="my-2" />
           <div className="flex items-end justify-end text-end text-xs text-muted-foreground px-2">© {new Date().getFullYear()} Graig Kolodziejczyk — Portfolio</div>
         </div>
