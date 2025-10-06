@@ -27,7 +27,7 @@ function MobileMenu() {
           <MobileLink href="#projects">{t('nav.projects')}</MobileLink>
           <MobileLink href="#contact">{t('nav.contact')}</MobileLink>
           <Separator className="my-2" />
-          <div className="flex items-end justify-end text-end text-xs text-muted-foreground px-2">© {new Date().getFullYear()} Graig Kolodziejczyk — Portfolio</div>
+          <div className="flex items-end justify-end text-end text-xs text-muted-foreground px-2">© {new Date().getFullYear()} Graig KOLODZIEJCZYK — Portfolio</div>
         </div>
       </SheetContent>
     </Sheet>
