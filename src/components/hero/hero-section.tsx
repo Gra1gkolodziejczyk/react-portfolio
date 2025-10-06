@@ -22,28 +22,53 @@ export default function HeroSection() {
             {t('hero.description')}
           </p>
 
-          <div className="flex flex-row gap-4 mt-6 items-center">
-            <p className="font-bold text-lg sm:pt-1">{t('hero.techStack')}</p>
-            <TechStack
-              names={[
-                "react",
-                "nextjs",
-                "tailwindcss",
-                "typeScript",
-                "nestJS",
-                "prisma",
-                "stripe",
-                "amazon_web_services",
-                "docker",
-                "kubernetes",
-                "jest",
-              ]}
-              size={32}
-              theme="auto"
-              gapClassName="gap-2"
-            />
-            <p className="font-bold text-black dark:text-white">{t('hero.more')}</p>
+          <div className="mt-6">
+            <div className="flex flex-col gap-3 md:hidden">
+              <p className="font-bold text-lg">{t('hero.techStack')}</p>
+              <TechStack
+                names={[
+                  "react",
+                  "nextjs",
+                  "tailwindcss",
+                  "typeScript",
+                  "nestJS",
+                  "prisma",
+                  "stripe",
+                  "amazon_web_services",
+                  "docker",
+                  "kubernetes",
+                  "jest",
+                ]}
+                size={32}
+                theme="auto"
+                gapClassName="gap-2"
+              />
+              <p className="font-bold text-black dark:text-white">{t('hero.more')}</p>
             </div>
+
+            <div className="hidden md:flex flex-row gap-4 items-center">
+              <p className="font-bold text-lg sm:pt-1">{t('hero.techStack')}</p>
+              <TechStack
+                names={[
+                  "react",
+                  "nextjs",
+                  "tailwindcss",
+                  "typeScript",
+                  "nestJS",
+                  "prisma",
+                  "stripe",
+                  "amazon_web_services",
+                  "docker",
+                  "kubernetes",
+                  "jest",
+                ]}
+                size={32}
+                theme="auto"
+                gapClassName="gap-2"
+              />
+              <p className="font-bold text-black dark:text-white">{t('hero.more')}</p>
+            </div>
+          </div>
 
           <div className="flex gap-4 mt-6">
             <Button

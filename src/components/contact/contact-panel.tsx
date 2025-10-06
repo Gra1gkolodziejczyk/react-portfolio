@@ -104,10 +104,10 @@ export default function ContactPanel({email = "graig.kolodziejczyk@icloud.com", 
         </div>
       </div>
 
-      <div className="relative mt-4 text-sm">
+      <div className="relative mt-4 text-sm flex justify-center">
         <a
           href={`mailto:${email}`}
-          className="group inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-foreground hover:bg-white/10"
+          className="group flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-foreground hover:bg-white/10 max-sm:flex-col max-sm:items-center max-sm:gap-1 max-sm:text-center"
         >
           <Mail className="h-4 w-4 opacity-80" />
           <span className="font-medium">{email}</span>

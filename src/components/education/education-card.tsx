@@ -10,10 +10,10 @@ function EducationCard({ education, index }: EducationCardProps) {
   const isLeft = index % 2 === 0;
 
   return (
-    <div>
+    <div className="relative pt-6">
       <div
         aria-hidden
-        className="absolute left-[14px] top-6 size-2 rounded-full bg-primary shadow-md shadow-primary/30 ring-4 ring-primary/20 dark:ring-primary/25 sm:left-1/2 sm:-translate-x-1"
+        className="absolute left-1/2 -translate-x-1 top-0 size-2 rounded-full bg-primary shadow-md shadow-primary/30 ring-4 ring-primary/20 dark:ring-primary/25 sm:left-1/2 sm:-translate-x-1"
       />
 
       <div

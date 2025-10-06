@@ -9,11 +9,8 @@ interface EducationTimelineProps {
 
 function EducationTimeline({ education }: EducationTimelineProps) {
   return (
-    <div
-      className="relative mx-auto mt-12 max-w-3xl"
-    >
-      <div className="absolute left-4 top-0 h-full w-px bg-gradient-to-b from-transparent via-slate-300 to-transparent dark:via-white/15 sm:left-1/2" />
-
+    <div className="relative mx-auto mt-12 max-w-3xl">
+      <div className="absolute left-1/2 -translate-x-1/2 top-0 h-full w-px bg-gradient-to-b from-transparent via-slate-300 to-transparent dark:via-white/15 sm:left-1/2 sm:-translate-x-1/2" />
       <ul className="space-y-8">
         {education.map((education, idx) => (
           <EducationCard

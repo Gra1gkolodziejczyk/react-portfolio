@@ -3,7 +3,7 @@ import { Separator } from "@/components/ui/separator"
 import MobileLink from "./mobile-link.tsx"
 import { Button } from "../ui/button.tsx"
 import { Menu } from "lucide-react"
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 function MobileMenu() {
   const { t } = useTranslation();
@@ -21,7 +21,7 @@ function MobileMenu() {
         </SheetHeader>
         <div className="mt-6 flex flex-col gap-2">
           <MobileLink href="#home">{t('nav.home')}</MobileLink>
-          <MobileLink href="#aboutme">{t('nav.aboutme')}</MobileLink>
+          <MobileLink href="#aboutme">{t('nav.about')}</MobileLink>
           <MobileLink href="#education">{t('nav.education')}</MobileLink>
           <MobileLink href="#skills">{t('nav.skills')}</MobileLink>
           <MobileLink href="#projects">{t('nav.projects')}</MobileLink>
