@@ -73,6 +73,22 @@ export const projectsData: ProjectDataRaw[] = [
         end: "18/11/2025",
     },
     {
+      id: "shop-ta-board",
+      titleKey: "projects.shoptaboard.title",
+      roleKey: "projects.role.personal",
+      cover: "e-commerce.png",
+      techs: [
+        { name: "React", iconSrc: "/react.svg" },
+        { name: "Tailwindcss", iconSrc: "/tailwindcss.svg" },
+        { name: "NestJs", iconSrc: "/nestjs.svg" },
+        { name: "Prisma", iconSrc: "/prisma.svg" },
+        { name: "Vercel", iconSrc: "/vercel.svg" },
+      ],
+      siteUrl: "https://shop-ta-board.vercel.app/",
+      start: "01/10/2025",
+      end: "12/10/2025",
+    },
+    {
         id: "villamaurice",
         titleKey: "projects.villamaurice.title",
         roleKey: "projects.role.freelance",

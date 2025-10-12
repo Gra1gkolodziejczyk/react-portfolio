@@ -68,7 +68,8 @@ const resources = {
           role: {
           ceo: 'CEO | Full-Stack Developer',
             alternant: 'Intern | Full-Stack Developer',
-            freelance: 'Freelance | Frontend Developer'
+            freelance: 'Freelance | Frontend Developer',
+            personal: 'Personal Project | Full-Stack Developer'
           },
           biume: {
             title: 'Biume - Doctolib-like Platform for Animals',
@@ -79,6 +80,9 @@ const resources = {
           },
           retrobalade: {
             title: 'Retrobalade – Classic Car Rental Platform'
+          },
+          shoptaboard: {
+            title: "Shoptaboard - E-commerce for skateboard equipment"
           },
           villamaurice: {
             title: 'Villa Maurice | Sereniluxe'
@@ -160,7 +164,8 @@ const resources = {
           role: {
           ceo: 'CEO | Développeur Full-Stack',
             alternant: 'Alternant | Développeur Full-Stack',
-            freelance: 'Freelance | Développeur Frontend'
+            freelance: 'Freelance | Développeur Frontend',
+            personal: 'Projet Personnel | Dévelopeur Full-Stack'
           },
           biume: {
             title: 'Biume - Plateforme type Doctolib pour les animaux',
@@ -171,6 +176,9 @@ const resources = {
           },
           retrobalade: {
             title: 'Retrobalade – Plateforme de location de voitures de collection'
+          },
+          shoptaboard: {
+            title: "ShopTaBoard – E-commerce d'équipement de Skateboard",
           },
           villamaurice: {
             title: 'Villa Maurice | Sereniluxe'
