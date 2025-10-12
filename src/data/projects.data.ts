@@ -80,8 +80,10 @@ export const projectsData: ProjectDataRaw[] = [
       techs: [
         { name: "React", iconSrc: "/react.svg" },
         { name: "Tailwindcss", iconSrc: "/tailwindcss.svg" },
+        { name: "TypeScript", iconSrc: "/typescript.svg" },
         { name: "NestJs", iconSrc: "/nestjs.svg" },
         { name: "Prisma", iconSrc: "/prisma.svg" },
+        { name: "PostgreSQL", iconSrc: "/postgresql.svg" },
         { name: "Vercel", iconSrc: "/vercel.svg" },
       ],
       siteUrl: "https://shop-ta-board.vercel.app/",
