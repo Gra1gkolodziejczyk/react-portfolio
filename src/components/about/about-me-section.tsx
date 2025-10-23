@@ -15,7 +15,7 @@ function AboutMeSection() {
 
 
       <ul className="space-y-4">
-        <AboutItem src="/intellijidea.svg" alt="Logo IntelliJ IDEA">
+        <AboutItem src="/webstorm.svg" alt="Logo WebStorm IDEA">
           {t('about.point1')}
         </AboutItem>
 
