@@ -28,9 +28,10 @@ export default function HeroSection() {
               <TechStack
                 names={[
                   "react",
-                  "nextjs",
+                  "angular",
                   "tailwindcss",
                   "typeScript",
+                  "springboot",
                   "nestJS",
                   "prisma",
                   "stripe",
