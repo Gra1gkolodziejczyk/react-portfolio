@@ -31,7 +31,7 @@ export default function HeroSection() {
                   "angular",
                   "tailwindcss",
                   "typeScript",
-                  "springboot",
+                  "spring",
                   "nestJS",
                   "prisma",
                   "stripe",
@@ -51,10 +51,12 @@ export default function HeroSection() {
               <p className="font-bold text-lg sm:pt-1">{t('hero.techStack')}</p>
               <TechStack
                 names={[
+                  "angular",
                   "react",
                   "nextjs",
                   "tailwindcss",
                   "typeScript",
+                  "spring",
                   "nestJS",
                   "prisma",
                   "stripe",
