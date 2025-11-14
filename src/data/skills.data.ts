@@ -21,6 +21,7 @@ export const skillsData: SkillColumnDataRaw[] = [
     {
         titleKey: "skills.categories.frontend",
         items: [
+            { name: "Angular", iconSrc: '/angular.svg', rating: 5, years: 2 },
             { name: "React", iconSrc: "/react.svg", rating: 5, years: 4 },
             { name: "Next.js", iconSrc: "/nextjs.svg", rating: 4, years: 3 },
             { name: "Nuxt", iconSrc: "/nuxt.svg", rating: 3, years: 1 },
@@ -33,6 +34,7 @@ export const skillsData: SkillColumnDataRaw[] = [
     {
         titleKey: "skills.categories.backend",
         items: [
+            { name: "Spring Boot", iconSrc: '/spring.svg', rating: 5, years: 2 },
             { name: "NestJS", iconSrc: "/nestjs.svg", rating: 4, years: 3 },
             { name: "GraphQL", iconSrc: "/graphql.svg", rating: 4, years: 3 },
             { name: "Prisma", iconSrc: "/prisma_dark.svg", rating: 5, years: 4 },
