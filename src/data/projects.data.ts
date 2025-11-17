@@ -78,10 +78,10 @@ export const projectsData: ProjectDataRaw[] = [
       roleKey: "projects.role.personal",
       cover: "e-commerce.png",
       techs: [
-        { name: "Angular", iconSrc: "/angular.svg" },
+        { name: "React", iconSrc: "/react.svg" },
         { name: "Tailwindcss", iconSrc: "/tailwindcss.svg" },
         { name: "TypeScript", iconSrc: "/typescript.svg" },
-        { name: "Spring Boot", iconSrc: "/spring.svg" },
+        { name: "Nest", iconSrc: "/nestjs.svg" },
         { name: "PostgreSQL", iconSrc: "/postgresql.svg" },
       ],
       siteUrl: "https://shop-ta-board.vercel.app/",
