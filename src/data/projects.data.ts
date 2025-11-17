@@ -83,6 +83,7 @@ export const projectsData: ProjectDataRaw[] = [
         { name: "TypeScript", iconSrc: "/typescript.svg" },
         { name: "Nest", iconSrc: "/nestjs.svg" },
         { name: "PostgreSQL", iconSrc: "/postgresql.svg" },
+        { name: "Vercel", iconSrc: "vercel.svg" },
       ],
       siteUrl: "https://shop-ta-board.vercel.app/",
       start: "01/10/2025",
