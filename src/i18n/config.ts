@@ -39,7 +39,7 @@ const resources = {
         title: 'My qualifications',
         diplomas: {
           master: {
-            title: 'Master 2: Expert Software Developer',
+            title: "Master's Degree: Expert Software Developer",
             school: 'Ynov Campus',
             location: 'Bordeaux, 33000, France',
             period: '2021 - 2025',
